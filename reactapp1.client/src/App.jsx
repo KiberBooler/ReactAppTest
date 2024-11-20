@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { Header } from './Components/Header'
+import { Table } from './Components/Table'
 
 function App() {
     const [forecasts, setForecasts] = useState();
@@ -35,9 +36,10 @@ function App() {
 
     return (
         <div>
-            <h1 id="tableLabel">Weather forecast</h1>
+            <h1 id="tableLabel">Test of a new simple project</h1>
             <p>This component demonstrates fetching data from the server.</p>
             <Header />
+            <Table />
             {contents}
         </div>
     );

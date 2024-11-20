@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <p>Hello world!</p>
+    <p>"Это хедер всех хедеров"</p>
   );
 }
 

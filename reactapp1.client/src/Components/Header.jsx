@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <p>Hello world!</p>
+    <p>This text is from Components/Header.jsx</p>
   );
 }
 
